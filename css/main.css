@@ -1,0 +1,113 @@
+.container {
+  max-width: 1294px; }
+
+header {
+  background: #FFFFFF;
+  padding-top: 20px;
+  padding-bottom: 28px; }
+  header h1 {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    text-transform: uppercase;
+    color: #000000; }
+  header h2 {
+    font-family: 'Readex Pro', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 58px;
+    line-height: 70px;
+    color: #000000; }
+  header ul li {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    text-transform: uppercase;
+    color: #000000; }
+  header .icon_link ul li:first-of-type {
+    margin-right: 5px; }
+  header .navigation_menu ul li {
+    margin-right: 30px; }
+  header .after_text:after {
+    content: "";
+    display: inline-block;
+    background-image: url("../images/arrow.svg");
+    width: 12px;
+    height: 8px; }
+
+.new-phones {
+  position: relative; }
+  .new-phones .title_icon {
+    background-color: #DCE5E2;
+    border-radius: 32px;
+    padding-top: 145px;
+    padding-bottom: 127px; }
+  .new-phones h1 {
+    font-family: 'Readex Pro', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 58px;
+    line-height: 70px;
+    color: #000000;
+    margin-bottom: 19px;
+    margin-left: 56px; }
+  .new-phones h2 {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #000000;
+    margin-bottom: 30px;
+    margin-left: 56px; }
+  .new-phones a {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    text-transform: capitalize;
+    color: #000000;
+    border: 1px solid #000000;
+    border-radius: 200px;
+    background: #DCE5E2;
+    margin-left: 56px;
+    padding: 14px 53px; }
+  .new-phones img {
+    position: absolute;
+    right: 290px;
+    top: 0; }
+  .new-phones .owl-nav .owl-prev {
+    position: absolute;
+    left: -46px;
+    top: 35%; }
+  .new-phones .owl-nav .owl-next {
+    position: absolute;
+    right: -40px;
+    top: 35%; }
+  .new-phones .owl-nav .owl-prev:before {
+    font-family: "Font Awesome 6 Free";
+    font-weight: 900;
+    content: "\f053";
+    font-size: 50px;
+    color: black; }
+  .new-phones .owl-nav .owl-next:before {
+    font-family: "Font Awesome 6 Free";
+    font-weight: 900;
+    content: "\f054";
+    font-size: 50px;
+    color: black; }
+  .new-phones .owl-dots .owl-dot span {
+    position: absolute;
+    width: 194px;
+    height: 2px;
+    left: calc(50% - 194px/2 - 228px);
+    top: calc(50% - 2px/2);
+    background: #000000;
+    border-radius: 0; }
+
+/*# sourceMappingURL=main.css.map */
