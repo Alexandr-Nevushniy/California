@@ -41,8 +41,7 @@ header {
 
 .new-phones .title_icon {
   background-color: #DCE5E2;
-  border-radius: 32px;
-  position: relative; }
+  border-radius: 32px; }
 .new-phones h1 {
   font-family: 'Readex Pro', sans-serif;
   font-style: normal;
@@ -75,36 +74,29 @@ header {
   background: #DCE5E2;
   margin-left: 56px;
   padding: 14px 53px; }
-.new-phones img {
-  position: absolute;
-  top: 0;
-  right: 0; }
-.new-phones .owl-carousel img {
-  position: relative;
-  z-index: 2; }
 
 .owl-nav .owl-prev {
   position: absolute;
-  left: 0;
-  top: 35%; }
+  left: 15px;
+  top: 45%; }
 
 .owl-nav .owl-next {
   position: absolute;
-  right: -40px;
-  top: 35%; }
+  right: 15px;
+  top: 45%; }
 
 .owl-nav .owl-prev:before {
   font-family: "Font Awesome 6 Free";
   font-weight: 900;
   content: "\f053";
-  font-size: 50px;
+  font-size: 25px;
   color: black; }
 
 .owl-nav .owl-next:before {
   font-family: "Font Awesome 6 Free";
   font-weight: 900;
   content: "\f054";
-  font-size: 50px;
+  font-size: 25px;
   color: black; }
 
 .owl-dots .owl-dot span {
@@ -112,14 +104,17 @@ header {
   width: 194px;
   height: 2px;
   left: calc(50% - 194px / 2 - 228px);
-  top: calc(50% - 2px / 2); }
+  top: calc(50% - 2px / 2);
+  display: inline-block;
+  margin-right: 50px; }
 
 .owl-dots .owl-dot.active span {
   background: #000000;
   width: 194px;
   height: 2px;
   left: calc(50% - 194px / 2 + 228px);
-  top: calc(50% - 2px / 2); }
+  top: calc(50% - 2px / 2);
+  display: inline-block; }
 
 .offer_store {
   position: relative;
@@ -213,7 +208,7 @@ header {
     max-height: 270px;
     text-align: right;
     position: absolute;
-    bottom: -35px; }
+    bottom: -20px; }
     .offer_store .pic4 img {
       padding-right: 216px;
       padding-left: 42px; }
@@ -246,7 +241,7 @@ header {
     font-size: 13px;
     line-height: 17px;
     color: #000000;
-    margin-bottom: 31px; }
+    margin-bottom: 50px; }
   .sale-of-goods h3 {
     font-family: 'Readex Pro', sans-serif;
     font-style: normal;
