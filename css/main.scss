@@ -115,40 +115,38 @@ header {
   }
 }
 
-
-
-.owl-nav .owl-prev {
+.owl-nav .owl-prev{
   position: absolute;
-  left: -46px;
+  left: 0;
   top: 35%;
 }
-.owl-nav .owl-next {
+.owl-nav .owl-next{
   position: absolute;
   right: -40px;
   top: 35%;
 }
-.owl-nav .owl-prev:before {
+.owl-nav .owl-prev:before{
   font-family: "Font Awesome 6 Free";
   font-weight: 900;
   content: "\f053";
   font-size: 50px;
   color: black;
 }
-.owl-nav .owl-next:before {
+.owl-nav .owl-next:before{
   font-family: "Font Awesome 6 Free";
   font-weight: 900;
   content: "\f054";
   font-size: 50px;
   color: black;
 }
-.owl-dots .owl-dot span {
+.owl-dots .owl-dot span{
   background: #000000;
   width: 194px;
   height: 2px;
   left: calc(50% - 194px / 2 - 228px);
   top: calc(50% - 2px / 2);
 }
-.owl-dots .owl-dot.active span {
+.owl-dots .owl-dot.active span{
   background: #000000;
   width: 194px;
   height: 2px;
@@ -156,4 +154,186 @@ header {
   top: calc(50% - 2px / 2);
 }
 
+.offer_store{
+  position: relative;
+  padding-top: 75px;
+  padding-bottom: 10px;
+  h2{
+    font-family: 'Readex Pro', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 42px;
+    line-height: 52px;
+    text-align: center;
+    color: #000000;
+  }
+  p{
+    font-family: 'Readex Pro', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    color: #000000;
+    margin-bottom: 55px;
+  }
+  h3{
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 19px;
+    color: #000000;
+  }
+  h4{
+    font-family: 'Readex Pro', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 38px;
+    color: #000000;
+  }
+  .pic1{
+    position: relative;
+    margin-right: 16px;
+    background: #FFFFFF;
+    //border-radius: 32px;
+    filter: drop-shadow(0px 4px 35px rgba(0, 0, 0, 0.25));
+    max-width: 639px;
+    max-height: 472px;
+    text-align: right;
+    img{
+     padding-right: 70px;
+    }
+    h3{
+      position: absolute;
+      right: 27px;
+      bottom: 75px;
+    }
+    h4{
+      position: absolute;
+      right: 25px;
+      bottom: -5px;
+    }
+  }
+  .pic2{
+    position: relative;
+    margin-right: 14px;
+    background: #FFFFFF;
+    //border-radius: 32px;
+    filter: drop-shadow(0px 4px 35px rgba(0, 0, 0, 0.25));
+    max-width: 312px;
+    max-height: 792px;
+    text-align: center;
+    img{
+      padding: 144px 0 281px 0;
+    }
+    h3{
+      position: absolute;
+      bottom: 215px;
+      right: 125px;
+    }
+    h4{
+      position: absolute;
+      bottom: 135px;
+      right: 30px;
+    }
+  }
+  .pic3{
+    position: relative;
+    background: #FFFFFF;
+    //border-radius: 32px;
+    filter: drop-shadow(0px 4px 35px rgba(0, 0, 0, 0.25));
+    max-width: 312px;
+    max-height: 792px;
+    text-align: center;
+    img{
+      position: absolute;
+      left: 0;
+      top: 250px;
+    }
+    h3{
+      margin-top: 114px;
+      margin-bottom: -3px;
+    }
+  }
+  .pic4{
+    background: #FFFFFF;
+    //border-radius: 32px;
+    filter: drop-shadow(0px 4px 35px rgba(0, 0, 0, 0.25));
+    max-width: 639px;
+    max-height: 270px;
+    text-align: right;
+    position: absolute;
+    bottom: -35px;
+    img{
+      padding-right: 216px;
+      padding-left: 42px;
+    }
+    h3{
+      position: absolute;
+      right: 42px;
+      bottom: 160px;
+    }
+    h4{
+      position: absolute;
+      right: 42px;
+      bottom: 85px;
+    }
+  }
+}
+.sale-of-goods{
+  padding-top: 200px;
+  padding-bottom: 27px;
+  .thumb1{
+    h4{
+      margin-bottom: 30px;
+    }
+  }
+  h2{
+    font-family: 'Readex Pro', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 42px;
+    line-height: 52px;
+    text-align: center;
+    color: #000000;
+  }
+  p{
+    font-family: 'Readex Pro', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 17px;
+    color: #000000;
+    margin-bottom: 31px;
+  }
+  h3{
+    font-family: 'Readex Pro', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 28px;
+    color: #000000;
+    margin-top: 37px;
+    margin-bottom: 9px;
+  }
+  h4{
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: #4B4B4B;
+    margin-bottom: 8px;
+  }
+  h5{
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    color: #000000;
+  }
+}
 

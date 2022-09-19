@@ -85,7 +85,7 @@ header {
 
 .owl-nav .owl-prev {
   position: absolute;
-  left: -46px;
+  left: 0;
   top: 35%; }
 
 .owl-nav .owl-next {
@@ -120,5 +120,156 @@ header {
   height: 2px;
   left: calc(50% - 194px / 2 + 228px);
   top: calc(50% - 2px / 2); }
+
+.offer_store {
+  position: relative;
+  padding-top: 75px;
+  padding-bottom: 10px; }
+  .offer_store h2 {
+    font-family: 'Readex Pro', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 42px;
+    line-height: 52px;
+    text-align: center;
+    color: #000000; }
+  .offer_store p {
+    font-family: 'Readex Pro', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    color: #000000;
+    margin-bottom: 55px; }
+  .offer_store h3 {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 19px;
+    color: #000000; }
+  .offer_store h4 {
+    font-family: 'Readex Pro', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 38px;
+    color: #000000; }
+  .offer_store .pic1 {
+    position: relative;
+    margin-right: 16px;
+    background: #FFFFFF;
+    filter: drop-shadow(0px 4px 35px rgba(0, 0, 0, 0.25));
+    max-width: 639px;
+    max-height: 472px;
+    text-align: right; }
+    .offer_store .pic1 img {
+      padding-right: 70px; }
+    .offer_store .pic1 h3 {
+      position: absolute;
+      right: 27px;
+      bottom: 75px; }
+    .offer_store .pic1 h4 {
+      position: absolute;
+      right: 25px;
+      bottom: -5px; }
+  .offer_store .pic2 {
+    position: relative;
+    margin-right: 14px;
+    background: #FFFFFF;
+    filter: drop-shadow(0px 4px 35px rgba(0, 0, 0, 0.25));
+    max-width: 312px;
+    max-height: 792px;
+    text-align: center; }
+    .offer_store .pic2 img {
+      padding: 144px 0 281px 0; }
+    .offer_store .pic2 h3 {
+      position: absolute;
+      bottom: 215px;
+      right: 125px; }
+    .offer_store .pic2 h4 {
+      position: absolute;
+      bottom: 135px;
+      right: 30px; }
+  .offer_store .pic3 {
+    position: relative;
+    background: #FFFFFF;
+    filter: drop-shadow(0px 4px 35px rgba(0, 0, 0, 0.25));
+    max-width: 312px;
+    max-height: 792px;
+    text-align: center; }
+    .offer_store .pic3 img {
+      position: absolute;
+      left: 0;
+      top: 250px; }
+    .offer_store .pic3 h3 {
+      margin-top: 114px;
+      margin-bottom: -3px; }
+  .offer_store .pic4 {
+    background: #FFFFFF;
+    filter: drop-shadow(0px 4px 35px rgba(0, 0, 0, 0.25));
+    max-width: 639px;
+    max-height: 270px;
+    text-align: right;
+    position: absolute;
+    bottom: -35px; }
+    .offer_store .pic4 img {
+      padding-right: 216px;
+      padding-left: 42px; }
+    .offer_store .pic4 h3 {
+      position: absolute;
+      right: 42px;
+      bottom: 160px; }
+    .offer_store .pic4 h4 {
+      position: absolute;
+      right: 42px;
+      bottom: 85px; }
+
+.sale-of-goods {
+  padding-top: 200px;
+  padding-bottom: 27px; }
+  .sale-of-goods .thumb1 h4 {
+    margin-bottom: 30px; }
+  .sale-of-goods h2 {
+    font-family: 'Readex Pro', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 42px;
+    line-height: 52px;
+    text-align: center;
+    color: #000000; }
+  .sale-of-goods p {
+    font-family: 'Readex Pro', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 17px;
+    color: #000000;
+    margin-bottom: 31px; }
+  .sale-of-goods h3 {
+    font-family: 'Readex Pro', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 28px;
+    color: #000000;
+    margin-top: 37px;
+    margin-bottom: 9px; }
+  .sale-of-goods h4 {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: #4B4B4B;
+    margin-bottom: 8px; }
+  .sale-of-goods h5 {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    color: #000000; }
 
 /*# sourceMappingURL=main.css.map */
