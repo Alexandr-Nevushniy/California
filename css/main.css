@@ -48,6 +48,9 @@ header {
   margin-top: 145px;
   margin-bottom: 19px;
   margin-left: 56px; }
+  @media screen and (max-width: 1282px) {
+    .new-phones h1 {
+      font-size: 52px; } }
 .new-phones h2 {
   font-family: 'Inter', sans-serif;
   font-style: normal;
@@ -57,6 +60,9 @@ header {
   color: #000000;
   margin-bottom: 30px;
   margin-left: 56px; }
+  @media screen and (max-width: 1282px) {
+    .new-phones h2 {
+      font-size: 14px; } }
 .new-phones a {
   font-family: 'Inter', sans-serif;
   font-style: normal;
@@ -75,10 +81,51 @@ header {
     border: 1px solid #000000;
     background: #1b3efa; }
 
+.search_info input {
+  border: 1px solid #000000;
+  border-radius: 10px;
+  font-family: 'Readex Pro', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  text-align: center;
+  color: #A0A0A0;
+  padding: 6px 28px;
+  margin-top: 5px; }
+
+.ui-widget-header {
+  border: 2px solid #000000;
+  background: #4964ec;
+  color: #333333;
+  font-weight: bold; }
+
+.ui-dialog {
+  display: block; }
+
+@media screen and (max-width: 1167px) {
+  .owl-carousel .owl-item img {
+    bottom: 0; } }
+
 .owl-dots {
   position: absolute;
   top: 480px;
   left: 25%; }
+  @media screen and (max-width: 1263px) {
+    .owl-dots {
+      width: 100%;
+      left: 2%;
+      top: 474px; } }
+  @media screen and (max-width: 1248px) {
+    .owl-dots {
+      width: 100%;
+      left: 2%;
+      top: 460px; } }
+  @media screen and (max-width: 990px) {
+    .owl-dots {
+      width: 100%;
+      left: 2%;
+      top: 979px; } }
 
 .owl-nav .owl-prev {
   position: absolute;
@@ -682,9 +729,11 @@ body {
       position: fixed;
       visibility: hidden;
       top: 50%;
+      opacity: 0;
       margin-top: 20px;
       -webkit-transform: translate(0%, -50%);
-      transform: translate(0%, -50%);
+      transition: none;
+      transform: none;
       width: 100%;
       text-align: center; } }
 
@@ -801,8 +850,18 @@ body {
     left: 0;
     width: 100%; } }
 
+@media screen and (max-width: 768px) {
+  body .nav__content {
+    visibility: hidden;
+    opacity: 0;
+    transition: none;
+    transform: none; } }
+
 body.nav-active .nav__content {
   visibility: visible; }
+  @media screen and (max-width: 768px) {
+    body.nav-active .nav__content {
+      opacity: 1; } }
 
 body.nav-active .menu-icon__line {
   background-color: #fff;

@@ -9,7 +9,6 @@
 }
 
 
-
 .container{
     max-width: 1294px;
 }
@@ -72,6 +71,9 @@ header {
     margin-top: 145px;
     margin-bottom: 19px;
     margin-left: 56px;
+    @include max-screen(1282px) {
+      font-size: 52px;
+    }
   }
   h2 {
     font-family: 'Inter', sans-serif;
@@ -82,6 +84,9 @@ header {
     color: #000000;
     margin-bottom: 30px;
     margin-left: 56px;
+    @include max-screen(1282px) {
+      font-size: 14px;
+    }
   }
   a {
     font-family: 'Inter', sans-serif;
@@ -104,14 +109,58 @@ header {
   }
 }
 
+.search_info input{
+  border: 1px solid #000000;
+  border-radius: 10px;
+  font-family: 'Readex Pro', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  text-align: center;
+  color: #A0A0A0;
+  padding: 6px 28px;
+  margin-top: 5px;
+}
+.ui-widget-header{
+  border: 2px solid #000000;
+  background: #4964ec;
+  color: #333333;
+  font-weight: bold;
+}
+.ui-dialog{
+  display: block;
+}
 
-
-.owl-dots{
+.owl-carousel{
+  .owl-item{
+    img {
+      @include max-screen(1167px) {
+        bottom: 0;
+      }
+    }
+  }
+}
+.owl-dots {
   position: absolute;
   top: 480px;
   left: 25%;
+  @include max-screen(1263px) {
+    width: 100%;
+    left: 2%;
+    top: 474px;
+  }
+  @include max-screen(1248px) {
+    width: 100%;
+    left: 2%;
+    top: 460px;
+  }
+  @include max-screen(990px) {
+    width: 100%;
+    left: 2%;
+    top: 979px;
+  }
 }
-
 .owl-nav .owl-prev{
   position: absolute;
   left: 15px;
@@ -809,9 +858,11 @@ body{
       position: fixed;
       visibility: hidden;
       top: 50%;
+      opacity: 0;
       margin-top: 20px;
       -webkit-transform: translate(0%, -50%);
-      transform: translate(0%, -50%);
+      transition: none;
+      transform: none;
       width: 100%;
       text-align: center;
     }
@@ -938,8 +989,21 @@ body{
     width: 100%;
   }
 }
+
+body .nav__content{
+  @include max-screen(768px){
+    visibility: hidden;
+    opacity: 0;
+    transition: none;
+    transform: none;
+  }
+}
+
 body.nav-active .nav__content {
   visibility: visible;
+  @include max-screen(768px){
+    opacity: 1;
+  }
 }
 body.nav-active .menu-icon__line {
   background-color: #fff;

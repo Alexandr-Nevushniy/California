@@ -1,26 +1,43 @@
-$(document).ready(function(){
+$(document).ready(function () {
+    $(function () {
+        $("#dialog").dialog({
+            autoOpen: false,
+            show: {
+                effect: "blind",
+                duration: 1000
+            },
+            hide: {
+                effect: "explode",
+                duration: 1000
+            }
+        });
 
+        $("#opener").on("click", function () {
+            $("#dialog").dialog("open");
+        });
+    });
     $('.owl-carousel').owlCarousel({
-        loop:true,
-        margin:0,
-        nav:true,
-        navText: [ '', ' ' ],
+        loop: true,
+        margin: 0,
+        nav: true,
+        navText: ['', ' '],
 
-        responsive:{
-            0:{
-                items:1
+        responsive: {
+            0: {
+                items: 1
             },
 
-            1000:{
-                items:1
+            1000: {
+                items: 1
             }
         }
     });
-    (function($) { "use strict";
+    (function ($) {
+        "use strict";
 
         //Page cursors
 
-        document.getElementsByTagName("body")[0].addEventListener("mousemove", function(n) {
+        document.getElementsByTagName("body")[0].addEventListener("mousemove", function (n) {
             t.style.left = n.clientX + "px",
                 t.style.top = n.clientY + "px",
                 e.style.left = n.clientX + "px",
@@ -31,16 +48,20 @@ $(document).ready(function(){
         var t = document.getElementById("cursor"),
             e = document.getElementById("cursor2"),
             i = document.getElementById("cursor3");
+
         function n(t) {
             e.classList.add("hover"), i.classList.add("hover")
         }
+
         function s(t) {
             e.classList.remove("hover"), i.classList.remove("hover")
         }
+
         s();
         for (var r = document.querySelectorAll(".hover-target"), a = r.length - 1; a >= 0; a--) {
             o(r[a])
         }
+
         function o(t) {
             t.addEventListener("mouseover", n), t.addEventListener("mouseout", s)
         }
@@ -63,7 +84,7 @@ $(document).ready(function(){
                 });
             };
             var toggleClass = function toggleClass(element, stringClass) {
-                if (element.classList.contains(stringClass)) element.classList.remove(stringClass);else element.classList.add(stringClass);
+                if (element.classList.contains(stringClass)) element.classList.remove(stringClass); else element.classList.add(stringClass);
             };
             init();
         }();
@@ -75,8 +96,7 @@ $(document).ready(function(){
             if ($("body").hasClass("light")) {
                 $("body").removeClass("light");
                 $("#switch").removeClass("switched");
-            }
-            else {
+            } else {
                 $("body").addClass("light");
                 $("#switch").addClass("switched");
             }
