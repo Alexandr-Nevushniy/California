@@ -97,11 +97,7 @@ header {
 .ui-widget-header {
   border: 2px solid #000000;
   background: #4964ec;
-  color: #333333;
-  font-weight: bold; }
-
-.ui-dialog {
-  display: block; }
+  color: #333333; }
 
 @media screen and (max-width: 1167px) {
   .owl-carousel .owl-item img {
