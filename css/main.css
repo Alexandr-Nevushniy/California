@@ -3,33 +3,37 @@
 
 header {
   background: #FFFFFF;
-  padding-top: 20px;
-  padding-bottom: 28px; }
-  header .nav__list li {
+  padding-top: 30px;
+  padding-bottom: 40px; }
+  header .nav__list-item a {
     font-family: 'Inter', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
     line-height: 17px;
     text-transform: uppercase;
+    text-decoration: none;
     color: #0a0a0a;
-    margin-right: 25px; }
-    header .nav__list li:nth-child(2):after {
-      content: "";
-      background-image: url("../images/arrow.svg");
-      width: 12px;
-      height: 8px;
-      border: none; }
-  header .icon_link ul li:first-of-type {
-    margin-right: 5px; }
-  header .navigation_menu ul li {
-    margin-right: 25px; }
-  header .after_text:after {
+    margin-right: 35px; }
+  header .nav__list-item:nth-child(2):after {
     content: "";
     background-image: url("../images/arrow.svg");
     width: 12px;
     height: 8px;
-    border: none; }
+    border: none;
+    display: block;
+    position: absolute;
+    top: 10px;
+    left: 225px; }
+    @media screen and (max-width: 768px) {
+      header .nav__list-item:nth-child(2):after {
+        display: none; } }
+  header .icon_link {
+    list-style: none;
+    margin-bottom: 0;
+    margin-right: 20px; }
+    header .icon_link li:first-of-type {
+      margin-right: 15px; }
 
 .new-phones .title_icon {
   background-color: #DCE5E2;
@@ -532,16 +536,17 @@ header {
       font-size: 18px;
       line-height: 22px;
       color: #000000; }
-    .subscription .tip_link span {
+    .subscription .tip_link a {
       font-family: 'Inter', sans-serif;
       font-style: normal;
       font-weight: 400;
       font-size: 18px;
       line-height: 22px;
+      text-decoration: none;
       color: #000000;
       margin-top: 19px;
       margin-left: 8px; }
-      .subscription .tip_link span:after {
+      .subscription .tip_link a:after {
         content: "";
         background-image: url("../images/arrow2.svg");
         width: 28px;
@@ -627,6 +632,7 @@ body {
   width: 30px;
   position: relative;
   z-index: 99;
+  top: 25px;
   cursor: pointer;
   display: block; }
 
@@ -711,6 +717,9 @@ body {
   margin: 0;
   z-index: 2;
   display: flex; }
+  @media screen and (max-width: 768px) {
+    .nav__list {
+      flex-direction: column; } }
 
 .nav__list-item {
   opacity: 1;
@@ -971,8 +980,6 @@ body.nav-active .nav__list-item:nth-child(10) {
   left: 43px;
   background: #000; }
 
-/* #Light
-================================================== */
 body.light {
   background-color: #fff; }
 
@@ -990,9 +997,6 @@ body.light .cursor2.hover {
   box-shadow: 0 0 2px rgba(0, 0, 0, 0.1);
   border-color: transparent; }
 
-body.light .logo-wrap a {
-  color: #1f2029; }
-
 body.light .menu-icon__line {
   background-color: #1f2029; }
 
@@ -1002,14 +1006,11 @@ body.light .nav:before {
 body.light .nav:after {
   background: #fafafa; }
 
-body.light .nav__list-item a {
-  color: rgba(0, 0, 0, 0.6); }
-
 body.light .nav__list-item a:hover {
-  color: #1f2029; }
+  color: #0a0a0a; }
 
 body.light .nav__list-item.active-nav a {
-  color: #1f2029; }
+  color: #0a0a0a; }
 
 body.light .switch-wrap h1 {
   color: #000; }
@@ -1021,8 +1022,6 @@ body.light .switch-wrap p span:nth-child(2):before {
 body.light .switch-wrap p span:nth-child(1):before {
   opacity: 0; }
 
-/* #Link to page
-================================================== */
 .link-to-portfolio {
   position: fixed;
   bottom: 40px;
