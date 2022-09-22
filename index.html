@@ -13,63 +13,105 @@
     <link rel="stylesheet" href="css/owl.theme.default.css">
     <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="css/main.css">
-<body>
-
+<body class="light">
 
 <header>
-    <div class="container">
-        <nav class="navbar navbar-expand-lg navbar-light align-items-center">
-            <a class="navbar-brand" href="#">
-                <img src="images/california.png" alt="logo_california">
-            </a>
-
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-                    aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-
-            <div class="collapse navbar-collapse navigation_menu justify-content-center" id="navbarSupportedContent">
-                <ul class="navbar-nav">
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">all products</a>
-                    </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle after_text d-inline-flex align-items-center" href="#" role="button" data-toggle="dropdown" aria-expanded="false">
-                            Solutions
-                        </a>
-                        <div class="dropdown-menu">
-                            <a class="dropdown-item" href="#">Action</a>
-                            <a class="dropdown-item" href="#">Another action</a>
-                            <div class="dropdown-divider"></div>
-                            <a class="dropdown-item" href="#">Something else here</a>
-                        </div>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">ABOUT</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Support</a>
-                    </li>
+    <div class="header-wrapper container d-flex align-items-center justify-content-between">
+        <a href="#">
+            <img src="images/california.png" alt="logo_california">
+        </a>
+        <div class="nav">
+            <nav class="nav__content">
+                <ul class="nav__list">
+                    <li class="nav__list-item active-nav"><a href="#" class="hover-target">all products</a></li>
+                    <li class="nav__list-item"><a href="#" class="hover-target">Solutions</a></li>
+                    <li class="nav__list-item"><a href="#" class="hover-target">ABOUT</a></li>
+                    <li class="nav__list-item"><a href="#" class="hover-target">Support</a></li>
                 </ul>
+            </nav>
+        </div>
+        <ul class="d-flex align-items-center">
+            <li>
+                <a href="#">
+                    <img src="images/search.svg" alt="logo_search">
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <img src="images/basket.svg" alt="logo_basket">
+                </a>
+            </li>
+        </ul>
+        <div class="nav-but-wrap">
+            <div class="menu-icon hover-target">
+                <span class="menu-icon__line menu-icon__line-left"></span>
+                <span class="menu-icon__line"></span>
+                <span class="menu-icon__line menu-icon__line-right"></span>
             </div>
-
-            <div class="icon_link">
-                <ul class="navbar-nav">
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">
-                            <img src="images/search.svg" alt="logo_search">
-                        </a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">
-                            <img src="images/basket.svg" alt="logo_basket">
-                        </a>
-                    </li>
-                </ul>
-            </div>
-        </nav>
+        </div>
     </div>
 </header>
+
+
+<div class='cursor2' id="cursor2"></div>
+<div class='cursor3' id="cursor3"></div>
+
+
+
+<!--<header>-->
+<!--    <div class="container">-->
+<!--        <nav class="navbar navbar-expand-lg navbar-light align-items-center">-->
+<!--            <a class="navbar-brand col-12 col-lg-3" href="#">-->
+<!--                <img src="images/california.png" alt="logo_california">-->
+<!--            </a>-->
+
+<!--            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"-->
+<!--                    aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">-->
+<!--                <span class="navbar-toggler-icon"></span>-->
+<!--            </button>-->
+
+<!--            <div class="collapse navbar-collapse navigation_menu justify-content-center" id="navbarSupportedContent">-->
+<!--                <ul class="navbar-nav">-->
+<!--                    <li class="nav-item">-->
+<!--                        <a class="nav-link" href="#">all products</a>-->
+<!--                    </li>-->
+<!--                    <li class="nav-item dropdown">-->
+<!--                        <a class="nav-link dropdown-toggle after_text d-inline-flex align-items-center" href="#" role="button" data-toggle="dropdown" aria-expanded="false">-->
+<!--                            Solutions-->
+<!--                        </a>-->
+<!--                        <div class="dropdown-menu">-->
+<!--                            <a class="dropdown-item" href="#">Action</a>-->
+<!--                            <a class="dropdown-item" href="#">Another action</a>-->
+<!--                            <div class="dropdown-divider"></div>-->
+<!--                            <a class="dropdown-item" href="#">Something else here</a>-->
+<!--                        </div>-->
+<!--                    </li>-->
+<!--                    <li class="nav-item">-->
+<!--                        <a class="nav-link" href="#">ABOUT</a>-->
+<!--                    </li>-->
+<!--                    <li class="nav-item">-->
+<!--                        <a class="nav-link" href="#">Support</a>-->
+<!--                    </li>-->
+<!--                </ul>-->
+<!--            </div>-->
+
+<!--            <div class="icon_link">-->
+<!--                <ul class="navbar-nav">-->
+<!--                    <li class="nav-item">-->
+<!--                        <a class="nav-link" href="#">-->
+<!--                            <img src="images/search.svg" alt="logo_search">-->
+<!--                        </a>-->
+<!--                    </li>-->
+<!--                    <li class="nav-item">-->
+<!--                        <a class="nav-link" href="#">-->
+<!--                            <img src="images/basket.svg" alt="logo_basket">-->
+<!--                        </a>-->
+<!--                    </li>-->
+<!--                </ul>-->
+<!--            </div>-->
+<!--        </nav>-->
+<!--    </div>-->
+<!--</header>-->
 
 
 <section class="new-phones">
@@ -261,46 +303,116 @@
                 <input class="search_info" type="search" placeholder="Search keyword" required>
             </form>
         </div>
-        <div class="btn_link d-flex justify-content-center flex-wrap">
-            <button class="button_items" type="button">
-                iPhone
-            </button>
-            <button class="button_items" type="button">
-                Charger
-            </button>
-            <button class="button_items" type="button">
-                Gift
-            </button>
-            <button class="button_items" type="button">
-                Google Pixel 3
-            </button>
-            <button class="button_items" type="button">
-                Keyboard
-            </button>
-            <button class="button_items" type="button">
-                13 Pro Max
-            </button>
-            <button class="button_items" type="button">
-                iPhone 12
-            </button>
-            <button class="button_items" type="button">
-                Laptop
-            </button>
-            <button class="button_items" type="button">
-                Mobile
-            </button>
+        <div class="btn_link">
+            <form class="d-flex justify-content-center flex-wrap">
+                <button class="button_items" type="button">
+                    iPhone
+                </button>
+                <button class="button_items" type="button">
+                    Charger
+                </button>
+                <button class="button_items" type="button">
+                    Gift
+                </button>
+                <button class="button_items" type="button">
+                    Google Pixel 3
+                </button>
+                <button class="button_items" type="button">
+                    Keyboard
+                </button>
+                <button class="button_items" type="button">
+                    13 Pro Max
+                </button>
+                <button class="button_items" type="button">
+                    iPhone 12
+                </button>
+                <button class="button_items" type="button">
+                    Laptop
+                </button>
+                <button class="button_items" type="button">
+                    Mobile
+                </button>
+            </form>
         </div>
         <div class="quote text-center d-flex flex-column align-items-center">
             <h4>Never miss a thing</h4>
             <p>Sign up for texts to be notified about our best offers on the perfect gifts.</p>
             <img src="images/notewatch.png" alt="logo_notewatch">
-            <form action="#">
+            <form class="d-flex justify-content-between">
                 <label for="email"></label>
-                <input type="text" placeholder="Your email" id="email">
+                <input class="item_email" type="text" placeholder="Your email" id="email">
+                <button class="btn sing_up" type="submit">Sign up</button>
             </form>
         </div>
     </div>
 </section>
+
+
+<footer class="subscription">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-4">
+                <img src="images/california2.svg" alt="logo_california">
+                <p>Sign up for texts to be notified about<br> our best offers on the perfect gifts.</p>
+            </div>
+
+            <div class="col-lg-2">
+                <ul>
+                    <li><a href="#">All products</a></li>
+                    <li><a href="#">Watch</a></li>
+                    <li><a href="#">Phones</a></li>
+                    <li><a href="#">Tablet</a></li>
+                    <li><a href="#">Laptops</a></li>
+                </ul>
+            </div>
+
+            <div class="col-lg-2">
+                <ul>
+                    <li><a href="#">Company</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Support</a></li>
+                </ul>
+            </div>
+
+            <div class="col-lg-2">
+                <ul>
+                    <li><a href="#">Support</a></li>
+                    <li><a href="#">Style Guide</a></li>
+                    <li><a href="#">Licensing</a></li>
+                    <li><a href="#">Change Log</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </div>
+
+            <div class="col-lg-2">
+                <ul>
+                    <li><a href="#">Follow Us</a></li>
+                    <li><a href="#">Instagram</a></li>
+                    <li><a href="#">Facebook</a></li>
+                    <li><a href="#">LinkedIn</a></li>
+                    <li><a href="#">Youtube</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="col-12">
+                <div class="tip_link d-flex justify-content-between">
+                    <div class="d-inline-flex">
+                        <p>Made By:</p>
+                        <span>Azwedo</span>
+                    </div>
+                    <div class="d-inline-flex">
+                        <p>Powered by:</p>
+                        <span>Webflow</span>
+                    </div>
+                </div>
+        </div>
+<!--        <h5 class="line"></h5>-->
+<!--        <div class="d-flex justify-content-between">-->
+<!--            <a href="#" class="see_all before1">Azwedo</a>-->
+<!--            <a href="#" class="see_all before2">Webflow</a>-->
+<!--        </div>-->
+    </div>
+</footer>
 
 
 <script src="https://kit.fontawesome.com/9bb7cecad3.js" crossorigin="anonymous"></script>
