@@ -101,6 +101,9 @@ header {
   background: #4964ec;
   color: #333333; }
 
+.ui-dialog {
+  top: 108px !important; }
+
 @media screen and (max-width: 1167px) {
   .owl-carousel .owl-item img {
     bottom: 0; } }
@@ -217,9 +220,6 @@ header {
     position: relative;
     transition: 0.5s;
     bottom: 0; }
-    @media screen and (max-width: 428px) {
-      .offer_store .pic1 {
-        margin-bottom: 220px; } }
     .offer_store .pic1:hover {
       bottom: -65px; }
     .offer_store .pic1 img {
@@ -239,7 +239,7 @@ header {
     bottom: 0; }
     @media screen and (max-width: 428px) {
       .offer_store .pic2 {
-        margin-top: 50px; } }
+        margin-top: 25px; } }
     .offer_store .pic2:hover {
       bottom: -28px; }
     .offer_store .pic2 img {
@@ -265,7 +265,7 @@ header {
     bottom: 0; }
     @media screen and (max-width: 428px) {
       .offer_store .pic3 {
-        margin-top: 70px;
+        margin-top: 40px;
         margin-left: 5px; } }
     .offer_store .pic3:hover {
       bottom: -28px; }
@@ -288,22 +288,32 @@ header {
     background: #FFFFFF;
     border-radius: 32px;
     box-shadow: 0 4px 35px rgba(0, 0, 0, 0.25);
-    position: absolute;
+    position: relative;
     transition: 0.5s;
-    bottom: -30px; }
+    bottom: -75px; }
+    @media screen and (max-width: 428px) {
+      .offer_store .pic4 {
+        top: 10px;
+        flex-direction: column;
+        align-items: end; }
+        .offer_store .pic4 h3 {
+          margin-top: 10px; }
+        .offer_store .pic4 h4 {
+          width: 128px; } }
     .offer_store .pic4:hover {
       transition: 0.5s;
-      bottom: 30px; }
+      bottom: -10px; }
     .offer_store .pic4 img {
       width: 100%;
       height: 100%; }
-    @media screen and (max-width: 428px) {
-      .offer_store .pic4 h3 {
-        display: none; } }
 
 .sale-of-goods {
   padding-top: 100px;
   padding-bottom: 27px; }
+  @media screen and (max-width: 428px) {
+    .sale-of-goods .thumb1 {
+      align-items: center;
+      text-align: center; } }
   .sale-of-goods .thumb1:hover {
     transition: 0.3s;
     box-shadow: 0 4px 35px rgba(0, 0, 0, 0.25);
@@ -434,6 +444,9 @@ header {
     text-align: center;
     color: #000000;
     margin-bottom: 56px; }
+  .place_for_ideas img {
+    width: 100%;
+    object-fit: cover; }
   .place_for_ideas p {
     font-family: 'Inter', sans-serif;
     font-style: normal;
@@ -441,6 +454,9 @@ header {
     font-size: 24px;
     line-height: 30px;
     color: #000000; }
+    @media screen and (max-width: 991px) {
+      .place_for_ideas p {
+        margin-top: 25px; } }
   .place_for_ideas a {
     font-family: 'Inter', sans-serif;
     font-style: normal;
@@ -533,6 +549,9 @@ header {
   margin: 68px auto 19px;
   padding-top: 47px;
   padding-bottom: 43px; }
+  @media screen and (max-width: 428px) {
+    .quote {
+      margin-top: 110px; } }
   .quote h4 {
     font-family: 'Readex Pro', sans-serif;
     font-style: normal;
@@ -554,12 +573,19 @@ header {
     max-width: 400px;
     width: 100%;
     height: 50px; }
+    @media screen and (max-width: 428px) {
+      .quote form {
+        max-width: 350px; } }
     .quote form .item_email {
       background: #DCE5E2;
       border: 1px solid #000000;
       border-radius: 54px 0 0 54px;
       padding: 16px 150px 17px 32px;
       width: 100%; }
+      @media screen and (max-width: 428px) {
+        .quote form .item_email {
+          width: 100%;
+          padding-right: 40px; } }
     .quote form .sing_up {
       background: #000000;
       border-radius: 0 200px 200px 0;
@@ -585,10 +611,12 @@ header {
     line-height: 19px;
     color: #000000;
     margin-top: 19px; }
-  .subscription ul:hover {
-    transition: .3s;
-    box-shadow: 0 4px 35px rgba(0, 0, 0, 0.25);
-    border-radius: 16px; }
+    @media screen and (max-width: 428px) {
+      .subscription p {
+        margin-left: 35px; } }
+  @media screen and (max-width: 428px) {
+    .subscription img {
+      margin-left: 35px; } }
   .subscription ul li {
     list-style: none;
     margin-bottom: 5px; }
@@ -614,6 +642,16 @@ header {
     border-top: 2px solid #DCE5E2;
     margin-top: 78px;
     padding-top: 52px; }
+    @media screen and (max-width: 428px) {
+      .subscription .tip_link {
+        margin-top: 45px; } }
+    @media screen and (max-width: 406px) {
+      .subscription .tip_link {
+        flex-wrap: wrap; }
+        .subscription .tip_link .link_1 {
+          width: 80%; }
+        .subscription .tip_link .link_2 {
+          width: 80%; } }
     .subscription .tip_link p {
       font-family: 'Readex Pro', sans-serif;
       font-style: normal;
@@ -621,6 +659,9 @@ header {
       font-size: 18px;
       line-height: 22px;
       color: #000000; }
+      @media screen and (max-width: 428px) {
+        .subscription .tip_link p {
+          margin-left: -25px; } }
     .subscription .tip_link a {
       font-family: 'Inter', sans-serif;
       font-style: normal;
@@ -631,14 +672,22 @@ header {
       color: #000000;
       margin-top: 19px;
       margin-left: 8px; }
-      .subscription .tip_link a:after {
-        content: "";
-        background-image: url("../images/arrow2.svg");
-        width: 28px;
-        height: 30px;
-        border: none;
-        position: absolute;
-        bottom: 10px; }
+    .subscription .tip_link .icon1:after {
+      content: "";
+      background-image: url("../images/arrow2.svg");
+      width: 28px;
+      height: 30px;
+      border: none;
+      position: absolute;
+      bottom: 10px; }
+    .subscription .tip_link .icon2:after {
+      content: "";
+      background-image: url("../images/arrow2.svg");
+      width: 28px;
+      height: 30px;
+      border: none;
+      position: absolute;
+      bottom: 10px; }
 
 body {
   overflow-x: hidden;
