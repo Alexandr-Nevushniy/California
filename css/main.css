@@ -91,8 +91,10 @@ header {
   line-height: 16px;
   text-align: center;
   color: #A0A0A0;
-  padding: 6px 28px;
+  padding: 10px 28px;
   margin-top: 5px; }
+  .search_info input:hover {
+    border: 1px solid #000000; }
 
 .ui-widget-header {
   border: 2px solid #000000;
@@ -122,6 +124,10 @@ header {
       width: 100%;
       left: 2%;
       top: 979px; } }
+  @media screen and (max-width: 428px) {
+    .owl-dots {
+      top: 883px;
+      margin-left: 4px; } }
 
 .owl-nav .owl-prev {
   position: absolute;
@@ -155,6 +161,9 @@ header {
   top: calc(50% - 2px / 2);
   display: inline-block;
   margin-right: 30px; }
+  @media screen and (max-width: 428px) {
+    .owl-dots .owl-dot span {
+      width: 95px; } }
 
 .owl-dots .owl-dot.active span {
   background: #000000;
@@ -163,6 +172,9 @@ header {
   left: calc(50% - 194px / 2 + 228px);
   top: calc(50% - 2px / 2);
   display: inline-block; }
+  @media screen and (max-width: 428px) {
+    .owl-dots .owl-dot.active span {
+      width: 95px; } }
 
 .offer_store {
   padding: 75px 0 10px 0; }
@@ -203,14 +215,20 @@ header {
     border-radius: 32px;
     box-shadow: 0 4px 35px rgba(0, 0, 0, 0.25);
     position: relative;
-    transition: 0.4s;
+    transition: 0.5s;
     bottom: 0; }
+    @media screen and (max-width: 428px) {
+      .offer_store .pic1 {
+        margin-bottom: 220px; } }
     .offer_store .pic1:hover {
       bottom: -65px; }
     .offer_store .pic1 img {
       width: 100%;
       height: 100%;
       padding-right: 58px; }
+    @media screen and (max-width: 428px) {
+      .offer_store .pic1 h3 {
+        text-align: right; } }
   .offer_store .pic2 {
     background: #FFFFFF;
     border-radius: 32px;
@@ -219,6 +237,9 @@ header {
     position: relative;
     transition: 0.4s;
     bottom: 0; }
+    @media screen and (max-width: 428px) {
+      .offer_store .pic2 {
+        margin-top: 50px; } }
     .offer_store .pic2:hover {
       bottom: -28px; }
     .offer_store .pic2 img {
@@ -229,6 +250,11 @@ header {
       margin-top: 41px; }
     .offer_store .pic2 h4 {
       margin-bottom: 144px; }
+    @media screen and (max-width: 428px) {
+      .offer_store .pic2 h4 {
+        margin-bottom: 50px; }
+      .offer_store .pic2 img {
+        padding-top: 80px; } }
   .offer_store .pic3 {
     background: #FFFFFF;
     border-radius: 32px;
@@ -237,6 +263,10 @@ header {
     position: relative;
     transition: 0.4s;
     bottom: 0; }
+    @media screen and (max-width: 428px) {
+      .offer_store .pic3 {
+        margin-top: 70px;
+        margin-left: 5px; } }
     .offer_store .pic3:hover {
       bottom: -28px; }
     .offer_store .pic3 img {
@@ -248,22 +278,34 @@ header {
       margin-bottom: 5px; }
     .offer_store .pic3 h4 {
       margin-bottom: 42px; }
+    @media screen and (max-width: 428px) {
+      .offer_store .pic3 img {
+        padding-bottom: 0; }
+      .offer_store .pic3 h3 {
+        margin-top: 70px; } }
   .offer_store .pic4 {
     padding: 0 42px;
     background: #FFFFFF;
     border-radius: 32px;
     box-shadow: 0 4px 35px rgba(0, 0, 0, 0.25);
     position: absolute;
+    transition: 0.5s;
     bottom: -30px; }
+    .offer_store .pic4:hover {
+      transition: 0.5s;
+      bottom: 30px; }
     .offer_store .pic4 img {
       width: 100%;
       height: 100%; }
+    @media screen and (max-width: 428px) {
+      .offer_store .pic4 h3 {
+        display: none; } }
 
 .sale-of-goods {
   padding-top: 100px;
   padding-bottom: 27px; }
   .sale-of-goods .thumb1:hover {
-    transition: .3s;
+    transition: 0.3s;
     box-shadow: 0 4px 35px rgba(0, 0, 0, 0.25);
     border-radius: 16px; }
   .sale-of-goods h6 {
@@ -732,6 +774,10 @@ body {
       transform: none;
       width: 100%;
       text-align: center; } }
+  @media screen and (max-width: 428px) {
+    .nav-active .nav__content {
+      top: 20%;
+      margin-left: 20px; } }
 
 .nav:before, .nav:after {
   content: "";
