@@ -51,6 +51,28 @@ header {
   @media screen and (max-width: 1282px) {
     .new-phones h1 {
       font-size: 52px; } }
+  @media screen and (max-width: 1167px) {
+    .new-phones h1 {
+      margin-top: 60px; } }
+  @media screen and (max-width: 1083px) {
+    .new-phones h1 {
+      margin-top: 40px; } }
+  @media screen and (max-width: 1030px) {
+    .new-phones h1 {
+      margin-top: 15px; } }
+  @media screen and (max-width: 991px) {
+    .new-phones h1 {
+      text-align: left; } }
+  @media screen and (max-width: 583px) {
+    .new-phones h1 {
+      font-size: 48px;
+      margin-left: 20px; } }
+  @media screen and (max-width: 509px) {
+    .new-phones h1 {
+      font-size: 45px; } }
+  @media screen and (max-width: 428px) {
+    .new-phones h1 {
+      font-size: 35px; } }
 .new-phones h2 {
   font-family: 'Inter', sans-serif;
   font-style: normal;
@@ -63,6 +85,47 @@ header {
   @media screen and (max-width: 1282px) {
     .new-phones h2 {
       font-size: 14px; } }
+  @media screen and (max-width: 991px) {
+    .new-phones h2 {
+      text-align: left; } }
+  @media screen and (max-width: 583px) {
+    .new-phones h2 {
+      margin-left: 20px; } }
+.new-phones h3 {
+  font-family: 'Readex Pro', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 58px;
+  line-height: 70px;
+  color: #000000;
+  margin-top: 145px;
+  margin-bottom: 19px;
+  margin-left: 56px; }
+  @media screen and (max-width: 1282px) {
+    .new-phones h3 {
+      font-size: 52px; } }
+  @media screen and (max-width: 1167px) {
+    .new-phones h3 {
+      margin-top: 60px; } }
+  @media screen and (max-width: 1083px) {
+    .new-phones h3 {
+      margin-top: 40px; } }
+  @media screen and (max-width: 1030px) {
+    .new-phones h3 {
+      margin-top: 15px; } }
+  @media screen and (max-width: 991px) {
+    .new-phones h3 {
+      text-align: left; } }
+  @media screen and (max-width: 583px) {
+    .new-phones h3 {
+      font-size: 48px;
+      margin-left: 20px; } }
+  @media screen and (max-width: 509px) {
+    .new-phones h3 {
+      font-size: 45px; } }
+  @media screen and (max-width: 428px) {
+    .new-phones h3 {
+      font-size: 35px; } }
 .new-phones a {
   font-family: 'Inter', sans-serif;
   font-style: normal;
@@ -76,10 +139,16 @@ header {
   background: #DCE5E2;
   margin-left: 56px;
   padding: 14px 53px; }
+  @media screen and (max-width: 583px) {
+    .new-phones a {
+      margin-left: 20px; } }
   .new-phones a:hover {
     position: relative;
     border: 1px solid #000000;
     background: #1b3efa; }
+.new-phones img {
+  width: 100%;
+  height: auto; }
 
 .search_info input {
   border: 1px solid #000000;
@@ -122,25 +191,93 @@ header {
       width: 100%;
       left: 2%;
       top: 460px; } }
-  @media screen and (max-width: 990px) {
+  @media screen and (max-width: 1200px) {
     .owl-dots {
       width: 100%;
       left: 2%;
-      top: 979px; } }
+      top: 440px; } }
+  @media screen and (max-width: 1167px) {
+    .owl-dots {
+      width: 100%;
+      left: 60px;
+      top: 430px; } }
+  @media screen and (max-width: 1140px) {
+    .owl-dots {
+      top: 420px; } }
+  @media screen and (max-width: 1100px) {
+    .owl-dots {
+      left: 100px;
+      top: 400px; } }
+  @media screen and (max-width: 1055px) {
+    .owl-dots {
+      top: 360px; } }
+  @media screen and (max-width: 991px) {
+    .owl-dots {
+      width: 100%;
+      left: 39px;
+      top: 1050px; } }
+  @media screen and (max-width: 948px) {
+    .owl-dots {
+      top: 1000px; } }
+  @media screen and (max-width: 890px) {
+    .owl-dots {
+      top: 950px; } }
+  @media screen and (max-width: 828px) {
+    .owl-dots {
+      top: 850px; } }
+  @media screen and (max-width: 750px) {
+    .owl-dots {
+      width: 100%;
+      left: 15px; } }
+  @media screen and (max-width: 710px) {
+    .owl-dots {
+      top: 800px; } }
+  @media screen and (max-width: 701px) {
+    .owl-dots {
+      width: 100%; } }
+  @media screen and (max-width: 654px) {
+    .owl-dots {
+      top: 750px; } }
+  @media screen and (max-width: 593px) {
+    .owl-dots {
+      top: 700px; } }
+  @media screen and (max-width: 583px) {
+    .owl-dots {
+      top: 730px; } }
+  @media screen and (max-width: 569px) {
+    .owl-dots {
+      top: 710px; } }
+  @media screen and (max-width: 550px) {
+    .owl-dots {
+      top: 670px; } }
+  @media screen and (max-width: 526px) {
+    .owl-dots {
+      top: 670px; } }
+  @media screen and (max-width: 509px) {
+    .owl-dots {
+      top: 680px; } }
+  @media screen and (max-width: 495px) {
+    .owl-dots {
+      top: 660px; } }
   @media screen and (max-width: 428px) {
     .owl-dots {
-      top: 883px;
-      margin-left: 4px; } }
+      top: 615px; } }
 
 .owl-nav .owl-prev {
   position: absolute;
   left: 15px;
   top: 50%; }
+  @media screen and (max-width: 500px) {
+    .owl-nav .owl-prev {
+      top: 65%; } }
 
 .owl-nav .owl-next {
   position: absolute;
   right: 15px;
   top: 50%; }
+  @media screen and (max-width: 500px) {
+    .owl-nav .owl-next {
+      top: 65%; } }
 
 .owl-nav .owl-prev:before {
   font-family: "Font Awesome 6 Free";
@@ -164,6 +301,15 @@ header {
   top: calc(50% - 2px / 2);
   display: inline-block;
   margin-right: 30px; }
+  @media screen and (max-width: 701px) {
+    .owl-dots .owl-dot span {
+      width: 150px; } }
+  @media screen and (max-width: 569px) {
+    .owl-dots .owl-dot span {
+      width: 120px; } }
+  @media screen and (max-width: 479px) {
+    .owl-dots .owl-dot span {
+      width: 100px; } }
   @media screen and (max-width: 428px) {
     .owl-dots .owl-dot span {
       width: 95px; } }
@@ -175,6 +321,15 @@ header {
   left: calc(50% - 194px / 2 + 228px);
   top: calc(50% - 2px / 2);
   display: inline-block; }
+  @media screen and (max-width: 701px) {
+    .owl-dots .owl-dot.active span {
+      width: 150px; } }
+  @media screen and (max-width: 569px) {
+    .owl-dots .owl-dot.active span {
+      width: 120px; } }
+  @media screen and (max-width: 479px) {
+    .owl-dots .owl-dot.active span {
+      width: 100px; } }
   @media screen and (max-width: 428px) {
     .owl-dots .owl-dot.active span {
       width: 95px; } }
@@ -189,6 +344,9 @@ header {
     line-height: 52px;
     text-align: center;
     color: #000000; }
+    @media screen and (max-width: 428px) {
+      .offer_store h2 {
+        font-size: 38px; } }
   .offer_store p {
     font-family: 'Readex Pro', sans-serif;
     font-style: normal;
@@ -239,7 +397,7 @@ header {
     bottom: 0; }
     @media screen and (max-width: 428px) {
       .offer_store .pic2 {
-        margin-top: 25px; } }
+        margin-top: -60px; } }
     .offer_store .pic2:hover {
       bottom: -28px; }
     .offer_store .pic2 img {
@@ -251,8 +409,8 @@ header {
     .offer_store .pic2 h4 {
       margin-bottom: 144px; }
     @media screen and (max-width: 428px) {
-      .offer_store .pic2 h4 {
-        margin-bottom: 50px; }
+      .offer_store .pic2 h3 {
+        margin-top: 15px; }
       .offer_store .pic2 img {
         padding-top: 80px; } }
   .offer_store .pic3 {
@@ -265,8 +423,7 @@ header {
     bottom: 0; }
     @media screen and (max-width: 428px) {
       .offer_store .pic3 {
-        margin-top: 40px;
-        margin-left: 5px; } }
+        margin-top: -60px; } }
     .offer_store .pic3:hover {
       bottom: -28px; }
     .offer_store .pic3 img {
@@ -291,6 +448,18 @@ header {
     position: relative;
     transition: 0.5s;
     bottom: -75px; }
+    @media screen and (max-width: 1203px) {
+      .offer_store .pic4 {
+        flex-direction: column; }
+        .offer_store .pic4 h4 {
+          width: 128px; } }
+    @media screen and (max-width: 767px) {
+      .offer_store .pic4 {
+        flex-direction: row;
+        margin-bottom: 100px; } }
+    @media screen and (max-width: 589px) {
+      .offer_store .pic4 {
+        flex-direction: column; } }
     @media screen and (max-width: 428px) {
       .offer_store .pic4 {
         top: 10px;
@@ -310,7 +479,7 @@ header {
 .sale-of-goods {
   padding-top: 100px;
   padding-bottom: 27px; }
-  @media screen and (max-width: 428px) {
+  @media screen and (max-width: 991px) {
     .sale-of-goods .thumb1 {
       align-items: center;
       text-align: center; } }
@@ -334,6 +503,9 @@ header {
     line-height: 52px;
     text-align: center;
     color: #000000; }
+    @media screen and (max-width: 450px) {
+      .sale-of-goods h2 {
+        font-size: 39px; } }
   .sale-of-goods p {
     font-family: 'Readex Pro', sans-serif;
     font-style: normal;
@@ -377,6 +549,9 @@ header {
     line-height: 52px;
     text-align: center;
     color: #000000; }
+    @media screen and (max-width: 450px) {
+      .Best_Product h3 {
+        font-size: 39px; } }
   .Best_Product p {
     font-family: 'Readex Pro', sans-serif;
     font-style: normal;
@@ -388,7 +563,6 @@ header {
   .Best_Product .watch-2 .test_color {
     background: #F8F9FA;
     border-radius: 16px;
-    text-align: center;
     padding: 41px 15px 28px 15px; }
     .Best_Product .watch-2 .test_color:hover {
       transition: .3s;
@@ -422,6 +596,8 @@ header {
     line-height: 35px;
     color: #000000;
     margin-bottom: 30px; }
+  .Best_Product .watch-2 img {
+    object-fit: cover; }
 
 .place_for_ideas {
   padding-top: 47px;
@@ -435,6 +611,9 @@ header {
     text-align: center;
     color: #000000;
     margin-bottom: 9px; }
+    @media screen and (max-width: 450px) {
+      .place_for_ideas h3 {
+        font-size: 39px; } }
   .place_for_ideas h4 {
     font-family: 'Readex Pro', sans-serif;
     font-style: normal;
@@ -487,6 +666,9 @@ header {
     line-height: 52px;
     color: #000000;
     margin-bottom: 24px; }
+    @media screen and (max-width: 450px) {
+      .Product_search h3 {
+        font-size: 39px; } }
   .Product_search form {
     max-width: 650px;
     width: 100%;
@@ -549,9 +731,9 @@ header {
   margin: 68px auto 19px;
   padding-top: 47px;
   padding-bottom: 43px; }
-  @media screen and (max-width: 428px) {
+  @media screen and (max-width: 580px) {
     .quote {
-      margin-top: 110px; } }
+      margin-top: 20px; } }
   .quote h4 {
     font-family: 'Readex Pro', sans-serif;
     font-style: normal;
@@ -559,6 +741,9 @@ header {
     font-size: 42px;
     line-height: 52px;
     color: #000000; }
+    @media screen and (max-width: 450px) {
+      .quote h4 {
+        font-size: 39px; } }
   .quote p {
     font-family: 'Inter', sans-serif;
     font-style: normal;
@@ -611,25 +796,18 @@ header {
     line-height: 19px;
     color: #000000;
     margin-top: 19px; }
-    @media screen and (max-width: 428px) {
-      .subscription p {
-        margin-left: 35px; } }
-  @media screen and (max-width: 428px) {
-    .subscription img {
-      margin-left: 35px; } }
   .subscription ul li {
     list-style: none;
     margin-bottom: 5px; }
     .subscription ul li:first-of-type {
-      margin-bottom: 25px; }
-      .subscription ul li:first-of-type a {
-        font-family: 'Readex Pro', sans-serif;
-        font-style: normal;
-        font-weight: 400;
-        font-size: 22px;
-        line-height: 28px;
-        color: #000000;
-        text-decoration: none; }
+      margin-bottom: 25px;
+      font-family: 'Readex Pro', sans-serif;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 22px;
+      line-height: 28px;
+      color: #000000;
+      text-decoration: none; }
     .subscription ul li a {
       font-family: 'Inter', sans-serif;
       font-style: normal;
@@ -638,56 +816,35 @@ header {
       line-height: 22px;
       color: #000000;
       text-decoration: none; }
-  .subscription .tip_link {
-    border-top: 2px solid #DCE5E2;
-    margin-top: 78px;
-    padding-top: 52px; }
-    @media screen and (max-width: 428px) {
-      .subscription .tip_link {
-        margin-top: 45px; } }
-    @media screen and (max-width: 406px) {
-      .subscription .tip_link {
-        flex-wrap: wrap; }
-        .subscription .tip_link .link_1 {
-          width: 80%; }
-        .subscription .tip_link .link_2 {
-          width: 80%; } }
-    .subscription .tip_link p {
-      font-family: 'Readex Pro', sans-serif;
-      font-style: normal;
-      font-weight: 400;
-      font-size: 18px;
-      line-height: 22px;
-      color: #000000; }
-      @media screen and (max-width: 428px) {
-        .subscription .tip_link p {
-          margin-left: -25px; } }
-    .subscription .tip_link a {
-      font-family: 'Inter', sans-serif;
-      font-style: normal;
-      font-weight: 400;
-      font-size: 18px;
-      line-height: 22px;
-      text-decoration: none;
-      color: #000000;
-      margin-top: 19px;
-      margin-left: 8px; }
-    .subscription .tip_link .icon1:after {
+  .subscription .line {
+    height: 1px;
+    background-color: #DCE5E2;
+    margin-top: 78px; }
+  .subscription a {
+    font-family: 'Readex Pro', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    color: #000000;
+    margin-bottom: 15px;
+    margin-top: 52px; }
+  .subscription span {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    text-decoration: none;
+    color: #000000; }
+    .subscription span:after {
       content: "";
       background-image: url("../images/arrow2.svg");
       width: 28px;
       height: 30px;
       border: none;
       position: absolute;
-      bottom: 10px; }
-    .subscription .tip_link .icon2:after {
-      content: "";
-      background-image: url("../images/arrow2.svg");
-      width: 28px;
-      height: 30px;
-      border: none;
-      position: absolute;
-      bottom: 10px; }
+      top: 50px; }
 
 body {
   overflow-x: hidden;

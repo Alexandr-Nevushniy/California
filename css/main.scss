@@ -72,6 +72,28 @@ header {
     @include max-screen(1282px) {
       font-size: 52px;
     }
+    @include max-screen(1167px) {
+      margin-top: 60px;
+    }
+    @include max-screen(1083px) {
+      margin-top: 40px;
+    }
+    @include max-screen(1030px) {
+      margin-top: 15px;
+    }
+    @include max-screen(991px) {
+      text-align: left;
+    }
+    @include max-screen(583px) {
+      font-size: 48px;
+      margin-left: 20px;
+    }
+    @include max-screen(509px) {
+      font-size: 45px;
+    }
+    @include max-screen(428px) {
+      font-size: 35px;
+    }
   }
   h2 {
     font-family: 'Inter', sans-serif;
@@ -85,8 +107,53 @@ header {
     @include max-screen(1282px) {
       font-size: 14px;
     }
+    @include max-screen(991px) {
+      text-align: left;
+    }
+    @include max-screen(583px) {
+      margin-left: 20px;
+    }
+  }
+  h3{
+    font-family: 'Readex Pro', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 58px;
+    line-height: 70px;
+    color: #000000;
+    margin-top: 145px;
+    margin-bottom: 19px;
+    margin-left: 56px;
+    @include max-screen(1282px) {
+      font-size: 52px;
+    }
+    @include max-screen(1167px) {
+      margin-top: 60px;
+    }
+    @include max-screen(1083px) {
+      margin-top: 40px;
+    }
+    @include max-screen(1030px) {
+      margin-top: 15px;
+    }
+    @include max-screen(991px) {
+      text-align: left;
+    }
+    @include max-screen(583px) {
+      font-size: 48px;
+      margin-left: 20px;
+    }
+    @include max-screen(509px) {
+      font-size: 45px;
+    }
+    @include max-screen(428px) {
+      font-size: 35px;
+    }
   }
   a {
+    @include max-screen(583px) {
+      margin-left: 20px;
+    }
     font-family: 'Inter', sans-serif;
     font-style: normal;
     font-weight: 400;
@@ -105,7 +172,13 @@ header {
       background: #1b3efa;
     }
   }
+  img{
+    width: 100%;
+    height: auto;
+  }
 }
+
+
 
 .search_info input{
   border: 1px solid #000000;
@@ -133,6 +206,8 @@ header {
   top: 108px !important;
 }
 
+
+
 .owl-carousel{
   .owl-item{
     img {
@@ -156,25 +231,94 @@ header {
     left: 2%;
     top: 460px;
   }
-  @include max-screen(990px) {
+  @include max-screen(1200px) {
     width: 100%;
     left: 2%;
-    top: 979px;
+    top: 440px;
+  }
+  @include max-screen(1167px) {
+    width: 100%;
+    left: 60px;
+    top: 430px;
+  }
+  @include max-screen(1140px) {
+    top: 420px;
+  }
+  @include max-screen(1100px) {
+    left: 100px;
+    top: 400px;
+  }
+  @include max-screen(1055px) {
+    top: 360px;
+  }
+  @include max-screen(991px) {
+    width: 100%;
+    left: 39px;
+    top: 1050px;
+  }
+  @include max-screen(948px) {
+    top: 1000px;
+  }
+  @include max-screen(890px) {
+    top: 950px;
+  }
+  @include max-screen(828px) {
+    top: 850px;
+  }
+  @include max-screen(750px) {
+    width: 100%;
+    left: 15px;
+  }
+  @include max-screen(710px) {
+    top: 800px;
+  }
+  @include max-screen(701px) {
+    width: 100%;
+  }
+  @include max-screen(654px) {
+    top: 750px;
+  }
+  @include max-screen(593px) {
+    top: 700px;
+  }
+  @include max-screen(583px) {
+    top: 730px;
+  }
+  @include max-screen(569px) {
+    top: 710px;
+  }
+  @include max-screen(550px) {
+    top: 670px;
+  }
+  @include max-screen(526px) {
+    top: 670px;
+  }
+  @include max-screen(509px) {
+    top: 680px;
+  }
+  @include max-screen(495px) {
+    top: 660px;
   }
   @include max-screen(428px) {
-    top: 883px;
-    margin-left: 4px;
+    top: 615px;
   }
+
 }
 .owl-nav .owl-prev{
   position: absolute;
   left: 15px;
   top: 50%;
+  @include max-screen(500px) {
+    top: 65%;
+  }
 }
 .owl-nav .owl-next{
   position: absolute;
   right: 15px;
   top: 50%;
+  @include max-screen(500px) {
+    top: 65%;
+  }
 }
 .owl-nav .owl-prev:before{
   font-family: "Font Awesome 6 Free";
@@ -198,6 +342,15 @@ header {
   top: calc(50% - 2px / 2);
   display: inline-block;
   margin-right: 30px;
+  @include max-screen(701px) {
+    width: 150px;
+  }
+  @include max-screen(569px) {
+    width: 120px;
+  }
+  @include max-screen(479px) {
+    width: 100px;
+  }
   @include max-screen(428px) {
     width: 95px;
   }
@@ -209,15 +362,29 @@ header {
   left: calc(50% - 194px / 2 + 228px);
   top: calc(50% - 2px / 2);
   display: inline-block;
+  @include max-screen(701px) {
+    width: 150px;
+  }
+  @include max-screen(569px) {
+    width: 120px;
+  }
+  @include max-screen(479px) {
+    width: 100px;
+  }
   @include max-screen(428px) {
     width: 95px;
   }
 }
 
 
+
+
 .offer_store{
   padding: 75px 0 10px 0;
   h2{
+    @include max-screen(428px) {
+      font-size: 38px;
+    }
     font-family: 'Readex Pro', sans-serif;
     font-style: normal;
     font-weight: 400;
@@ -226,6 +393,7 @@ header {
     text-align: center;
     color: #000000;
   }
+
   p{
     font-family: 'Readex Pro', sans-serif;
     font-style: normal;
@@ -276,7 +444,7 @@ header {
   }
   .pic2{
     @include max-screen(428px) {
-      margin-top: 25px;
+      margin-top: -60px;
     }
     background: #FFFFFF;
     border-radius: 32px;
@@ -300,8 +468,8 @@ header {
       margin-bottom: 144px;
     }
     @include max-screen(428px) {
-      h4{
-        margin-bottom: 50px;
+      h3{
+        margin-top: 15px;
       }
       img{
         padding-top: 80px;
@@ -310,8 +478,7 @@ header {
   }
   .pic3{
     @include max-screen(428px) {
-      margin-top: 40px;
-      margin-left: 5px;
+      margin-top: -60px;
     }
     background: #FFFFFF;
     border-radius: 32px;
@@ -345,6 +512,19 @@ header {
     }
   }
   .pic4{
+    @include max-screen(1203px) {
+      flex-direction: column;
+      h4{
+        width: 128px;
+      }
+    }
+    @include max-screen(767px) {
+      flex-direction: row;
+      margin-bottom: 100px;
+    }
+    @include max-screen(589px) {
+      flex-direction: column;
+    }
     @include max-screen(428px) {
       top: 10px;
       flex-direction: column;
@@ -379,7 +559,7 @@ header {
   padding-top: 100px;
   padding-bottom: 27px;
   .thumb1{
-    @include max-screen(428px) {
+    @include max-screen(991px) {
       align-items: center;
       text-align: center;
     }
@@ -399,6 +579,9 @@ header {
     margin-bottom: 28px;
   }
   h2{
+    @include max-screen(450px) {
+      font-size: 39px;
+    }
     font-family: 'Readex Pro', sans-serif;
     font-style: normal;
     font-weight: 400;
@@ -449,6 +632,9 @@ header {
 .Best_Product{
   padding: 47px 0 28px 0;
   h3{
+    @include max-screen(450px) {
+      font-size: 39px;
+    }
     font-family: 'Readex Pro', sans-serif;
     font-style: normal;
     font-weight: 400;
@@ -470,7 +656,6 @@ header {
     .test_color{
       background: #F8F9FA;
       border-radius: 16px;
-      text-align: center;
       padding: 41px 15px 28px 15px;
       &:hover {
         transition: .3s;
@@ -509,6 +694,9 @@ header {
       color: #000000;
       margin-bottom: 30px;
     }
+    img{
+      object-fit: cover;
+    }
   }
 }
 
@@ -516,6 +704,9 @@ header {
   padding-top: 47px;
   padding-bottom: 24px;
   h3{
+    @include max-screen(450px) {
+      font-size: 39px;
+    }
     font-family: 'Readex Pro', sans-serif;
     font-style: normal;
     font-weight: 400;
@@ -576,6 +767,9 @@ header {
   padding-top: 51px;
   padding-bottom: 18px;
   h3 {
+    @include max-screen(450px) {
+      font-size: 39px;
+    }
     font-family: 'Readex Pro', sans-serif;
     font-style: normal;
     font-weight: 400;
@@ -649,8 +843,8 @@ header {
 }
 
 .quote{
-  @include max-screen(428px){
-    margin-top: 110px;
+  @include max-screen(580px){
+    margin-top: 20px;
   }
   background: #DCE5E2;
   border-radius: 16px;
@@ -659,6 +853,9 @@ header {
   padding-top: 47px;
   padding-bottom: 43px;
   h4{
+    @include max-screen(450px) {
+      font-size: 39px;
+    }
     font-family: 'Readex Pro', sans-serif;
     font-style: normal;
     font-weight: 400;
@@ -725,14 +922,6 @@ header {
     line-height: 19px;
     color: #000000;
     margin-top: 19px;
-    @include max-screen(428px){
-      margin-left: 35px;
-    }
-  }
-  img{
-    @include max-screen(428px){
-      margin-left: 35px;
-    }
   }
   ul{
     li{
@@ -740,15 +929,13 @@ header {
       margin-bottom: 5px;
       &:first-of-type{
         margin-bottom: 25px;
-        a{
-          font-family: 'Readex Pro', sans-serif;
-          font-style: normal;
-          font-weight: 400;
-          font-size: 22px;
-          line-height: 28px;
-          color: #000000;
-          text-decoration: none;
-        }
+        font-family: 'Readex Pro', sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 22px;
+        line-height: 28px;
+        color: #000000;
+        text-decoration: none;
       }
       a{
         font-family: 'Inter', sans-serif;
@@ -761,65 +948,37 @@ header {
       }
     }
   }
-  .tip_link{
-    border-top: 2px solid #DCE5E2;
+  .line {
+    height: 1px;
+    background-color: #DCE5E2;
     margin-top: 78px;
-    padding-top: 52px;
-    @include max-screen(428px){
-      margin-top: 45px;
-    }
-    @include max-screen(406px){
-      .link_1{
-        width: 80%;
-      }
-      .link_2{
-        width: 80%;
-      }
-      flex-wrap: wrap;
-    }
-    p{
-      font-family: 'Readex Pro', sans-serif;
-      font-style: normal;
-      font-weight: 400;
-      font-size: 18px;
-      line-height: 22px;
-      color: #000000;
-      @include max-screen(428px){
-        margin-left: -25px;
-      }
-    }
-    a{
-      font-family: 'Inter', sans-serif;
-      font-style: normal;
-      font-weight: 400;
-      font-size: 18px;
-      line-height: 22px;
-      text-decoration: none;
-      color: #000000;
-      margin-top: 19px;
-      margin-left: 8px;
-    }
-    .icon1{
-      &:after{
-        content: "";
-        background-image: url("../images/arrow2.svg");
-        width: 28px;
-        height: 30px;
-        border: none;
-        position: absolute;
-        bottom: 10px;
-      }
-    }
-    .icon2{
-      &:after{
-        content: "";
-        background-image: url("../images/arrow2.svg");
-        width: 28px;
-        height: 30px;
-        border: none;
-        position: absolute;
-        bottom: 10px;
-      }
+  }
+  a{
+    font-family: 'Readex Pro', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    color: #000000;
+    margin-bottom: 15px;
+    margin-top: 52px;
+  }
+  span{
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    text-decoration: none;
+    color: #000000;
+    &:after{
+      content: "";
+      background-image: url("../images/arrow2.svg");
+      width: 28px;
+      height: 30px;
+      border: none;
+      position: absolute;
+      top: 50px;
     }
   }
 }
